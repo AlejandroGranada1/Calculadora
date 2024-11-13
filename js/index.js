@@ -15,6 +15,7 @@ const inputAdd = (value) => {
 
 const clearInput = () => {
     input.textContent = '0';
+    output.textContent = '0';
     input.classList.remove('active');
     output.classList.remove('active');
 };
