@@ -18,7 +18,7 @@ const clearInput = () => {
     output.textContent = '0';
     input.classList.remove('active');
     output.classList.remove('active');
-};
+}
 
 const calc = () => {
     try {
